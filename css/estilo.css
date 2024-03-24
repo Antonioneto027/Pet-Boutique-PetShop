@@ -1,0 +1,212 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+     
+}
+
+/* Estilos reaproveitáveis */ 
+
+.letra-purpura { 
+
+    color: #3c184e;
+}
+
+.letra-branca { 
+
+    color: #ffffff;
+}
+ 
+.fundo-purpura { 
+    background-color: #3c184e;
+}
+
+.negrito { 
+
+    font-weight: 700;
+}
+
+.italico { 
+
+    font-style: italic;
+}
+
+.centralizado { 
+
+    text-align: center;
+}
+
+.largura-total { 
+    width: 100%;
+}
+ 
+
+.secao-texto { 
+
+    width: 500px;
+    margin: 20px auto; 
+    
+}
+
+.largura-maxima-800 { 
+    width: 800px;
+}
+
+/* Estilos Individuais */ 
+
+.banner { 
+
+    background-image: url(/img/banner-topo.jpg);
+    padding: 120px 80px;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo { 
+
+    max-width: 300px;
+
+}
+
+.logo img { 
+    width: 30px;
+    margin-right: 5px;
+}
+
+.logo .nome { 
+    display: inline;
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+
+.logo .slogan { 
+    font-size: 14px;
+    margin: 0;
+}
+
+
+.card { 
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;}
+
+.card h1 { 
+    font-size: 60px;
+    color: #3c184e;
+    font-weight: 800px;
+    margin: 0 0 40px 0;
+}
+
+.card p { 
+
+    width: 200px;
+    padding: 10px 25px 10px 25px;
+    margin: 0 auto 0 auto;
+    font-size: 20px;
+    border-radius: 10px;
+    display: inline;
+ 
+}
+
+.card img { 
+    width: 20px;
+}
+
+
+.servicos { 
+
+    padding: 120px 80px;
+    margin: 0 0 45px 0;
+}
+
+.servicos ul { 
+    margin: 0 auto 50px auto;
+}
+
+.servicos li { 
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.servicos h3 { 
+    font-size: 36px;
+    margin: 0 0 45px 0;
+    
+}
+.imagem-secao-servico { 
+
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px #0000005c;
+
+}
+
+.faixa { 
+    padding: 120px 80px;
+}
+
+.faixa p { 
+
+    margin: 0 auto 50px auto;
+    font-size: 40px ;
+}
+
+.faixa a { 
+    padding: 0 20px 0 20px;
+    display: inline;
+}
+
+.faixa img { 
+    width: 50px;
+}
+
+.marcas { 
+    padding: 120px 80px;
+}
+
+.marcas h3 { 
+    font-size: 36px;
+    margin: 0 0 45px 0;
+}
+
+.marcas div { 
+
+    margin: 0 auto 0 auto;
+}
+
+.marcas img { 
+    width: 148px;
+    height: 148px;
+    margin: 0 15px 0 15px
+}
+
+.localizacao { 
+    padding: 120px 80px 120px 80px;
+}
+
+.localizacao h3 { 
+    font-size: 36px;
+    margin: 0 0 45px 0;
+}
+
+.localizacao p { 
+    font-size: 20px;
+    margin: 0 0 45px 0;
+}
+
+.localizacao iframe { 
+    width: 800px;
+    height: 450px;
+}
+
+footer { 
+    padding: 10px 0 10px 0;
+}
+
+footer p { 
+    font-size: 12px;
+}
